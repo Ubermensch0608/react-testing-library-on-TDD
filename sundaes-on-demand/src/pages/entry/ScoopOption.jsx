@@ -32,11 +32,7 @@ const ScoopOption = ({ name, imagePath, updateItemCount }) => {
           {name}
         </Form.Label>
         <Col xs="5" style={{ textAlign: 'left' }}>
-          <Form.Control
-            onChange={getScoopsAmountHandler}
-            defaultValue={0}
-            type="number"
-          />
+          <Form.Control onChange={getScoopsAmountHandler} type="number" />
         </Col>
       </Form.Group>
     </Col>
