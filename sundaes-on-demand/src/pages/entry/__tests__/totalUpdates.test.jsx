@@ -1,11 +1,10 @@
 import {
-  findByRole,
-  fireEvent,
   render,
   screen,
   waitFor,
-} from '@testing-library/react';
+} from '../../../test-utils/testing-library-utils';
 import userEvent from '@testing-library/user-event';
+
 import Options from '../Options';
 
 describe('totalUpdates', () => {
